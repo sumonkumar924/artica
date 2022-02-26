@@ -1,0 +1,67 @@
+@media screen and (max-width:1255px) {
+  
+    .logo{
+        width: 30%;
+         display: inline-block;
+     }
+
+     .manuarea{
+        width: 50%;
+        float: right;
+     }
+     .empty{
+         background-color: blue;
+     }
+     .writing{
+         background-color: rgb(145, 145, 73);
+     }
+}
+
+@media screen and (max-width:755px) {
+  
+    .logo{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+
+     }
+
+     .manuarea{
+        width: 100%;
+        float: right;
+        text-align: center;
+        
+     }
+     .empty{
+        background-color: rgb(255, 174, 0);
+    }
+    .writing{
+        background-color: rgb(129, 26, 189);
+    }
+
+    .empty{
+        height: 70px;
+    }
+    .circle::before{
+        content: "";
+        background-color: white;
+        height: 2px;
+        width: 180px;
+        position: absolute;
+        top: 6px;
+        right: 15px;
+    }
+    .circle::after{
+        content: "";
+        background-color: white;
+        height: 2px;
+        width: 180px;
+        position: absolute;
+        top: 6px;
+        left: 15px;
+    }
+    p{
+        display: none;
+    }
+}
+
